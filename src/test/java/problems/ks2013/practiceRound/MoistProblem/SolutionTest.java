@@ -1,10 +1,11 @@
-package ks2013.practiceRound.MoistProblem;
+package problems.ks2013.practiceRound.MoistProblem;
 
 import org.junit.jupiter.api.Test;
+import problems.BaseTest;
 
-class SolutionTest extends BaseTest{
+class SolutionTest extends BaseTest {
     private final Runnable runnable = () -> Solution.main(new String[0]);
-    private final String testDataDirectory = "ks2013/practiceRound/MoistProblem/";
+    private final String testDataDirectory = "problems/ks2013/practiceRound/MoistProblem/";
     @Test
     public void test1(){
         this.performTest(testDataDirectory +"input1.txt", testDataDirectory +"output1.txt", runnable);

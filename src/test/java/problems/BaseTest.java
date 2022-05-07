@@ -1,4 +1,4 @@
-package ks2013.practiceRound.MoistProblem;
+package problems;
 
 import org.junit.jupiter.api.Assertions;
 
@@ -6,7 +6,7 @@ import java.io.*;
 import java.net.URL;
 import java.util.function.Consumer;
 
-abstract class BaseTest {
+public abstract class BaseTest {
     private String expectedOutput = "";
     private String inputToProgram = "";
     private ByteArrayOutputStream outputStream;

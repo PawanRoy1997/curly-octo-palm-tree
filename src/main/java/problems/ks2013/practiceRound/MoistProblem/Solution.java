@@ -1,4 +1,4 @@
-package ks2013.practiceRound.MoistProblem;
+package problems.ks2013.practiceRound.MoistProblem;
 
 import java.util.Scanner;
 
